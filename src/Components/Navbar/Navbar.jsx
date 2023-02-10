@@ -1,48 +1,30 @@
-import React from 'react'
-import './Navbar.css'
-import CartWidget from '../CartWidget/CartWidget'
+import React from "react";
+import logo from "../../logo.svg"
+import "./Navbar.css"
 
-function Navbar() {
+function Navbar(props) {
+    
+    console.log(props)
+    
+    
+    
+    
+    
+    
+    
+    //////////////////////////////////////// Aca abajo es HTML
   return (
-    <div id="Navbar-container">
-
-    <ul id="Navbar-menu">
-        <li>
-            <a href="#Home">
-                Home 
-            </a>
-        </li>
-
-
-        <li>
-            <a href="#Products">
-                Products 
-            </a>
-        </li>
-
-        
-        <li>
-            <a href="#AboutUs ">
-                About Us 
-            </a>
-        </li>
-
-        
-        <li>
-            <a href="#Contact">
-                Contact 
-            </a>
-        </li>
-
-        
-
-        <CartWidget cantidad="2"/>
-
-    </ul>
-
-
-    </div>
-  )
+      <nav className="Navbar">
+        <ul>
+          <li>
+            <img src={logo} className="App-logo" alt="logo" />
+          </li>
+          <li>React Carla</li>
+          <li>{props.bienvenida}</li>
+        </ul>
+      </nav>
+    
+  );
 }
 
-export default Navbar
+export default Navbar;

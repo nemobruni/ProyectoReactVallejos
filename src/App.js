@@ -1,24 +1,30 @@
-// import logo from './logo.svg';
-import './App.css';
-import ItemListContainer from './Components/ItemListContainer/ItemListContainer';
-import Navbar from './Components/Navbar/Navbar';
-
-
+// import logo from "./logo.svg";
+import "./App.css";
+import Navbar from "./components/Navbar/Navbar";
+import Card from "./components/Card/Card";
+import Productos from "./components/Productos/Productos";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
+  //-------ACA SE ESCRIBE JAVASCRIPT!!!!!!!!!
+
+  //-----------------------------------------------------------------
   return (
-    <div  >
+    // ACA VA SOLAMENTE HTML
+    //Los estilos que le aplique a la clase App son estilos globales. Es equivalente al body de una pag html normal.
+    <div className="App">
+      <header className="App-header">
+        <Navbar bienvenida={"gato"} />
 
-      <Navbar/>
+     
 
+        <h1>Hola, estoy escribiendo algo en react</h1>
+      </header>
+      <main>
+        <p>Aca estan los productos</p>
 
-      <ItemListContainer titulo="Titulo de la pagina"/>
-
-    
-
-
-
-      
+        <ItemListContainer />
+      </main>
     </div>
   );
 }
