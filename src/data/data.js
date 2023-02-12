@@ -5,7 +5,8 @@ export const data = [
       title: "PEDIGREE",
       description: "Adulto - 15kg",
       price: 17500,
-      pictureUrl: "https://carrefourar.vtexassets.com/arquivos/ids/256066/7797453000369_02.jpg?v=637986095784470000"
+      pictureUrl: "https://carrefourar.vtexassets.com/arquivos/ids/256066/7797453000369_02.jpg?v=637986095784470000",
+      category: 1
     },
     {
       id: 2,
@@ -13,7 +14,8 @@ export const data = [
       title: "DOG CHOW",
       description: "Adulto - 15kg",
       price: 3500,
-      pictureUrl: "https://media2.mimundomascota.com.ar/2446-thickbox_default/dog-chow-perros-adultos-razas-pequenas-x-8kg.jpg"
+      pictureUrl: "https://media2.mimundomascota.com.ar/2446-thickbox_default/dog-chow-perros-adultos-razas-pequenas-x-8kg.jpg",
+      category: 1
     },
     {
       id: 3,
@@ -21,7 +23,8 @@ export const data = [
       title: "PRO PLAN",
       description: "Adulto - 15kg",
       price: 11000,
-      pictureUrl: "https://cdn.shopify.com/s/files/1/0370/1823/9113/products/purina-pro-plan-perro-piel-estomago-sensible-raza-mediana-grande_1024x.png?v=1647284013"
+      pictureUrl: "https://cdn.shopify.com/s/files/1/0370/1823/9113/products/purina-pro-plan-perro-piel-estomago-sensible-raza-mediana-grande_1024x.png?v=1647284013",
+      category: 1
     },
     {
       id: 4,
@@ -29,7 +32,8 @@ export const data = [
       title: "PURINA EXCELLENT",
       description: "Cachorro - 15kg",
       price: 8000,
-      pictureUrl: "https://puppis.vteximg.com.br/arquivos/ids/179333/7613035337671-1.jpg?v=637570857960500000"
+      pictureUrl: "https://puppis.vteximg.com.br/arquivos/ids/179333/7613035337671-1.jpg?v=637570857960500000",
+      category: 1
     },
     {
       id: 5,
@@ -37,7 +41,8 @@ export const data = [
       title: "OLD PRINCE",
       description: "Senior - 15kg",
       price: 9500,
-      pictureUrl: "https://nanolog.vteximg.com.br/arquivos/ids/164722-1000-1000/old-prince-cerdo.jpg?v=637346495831970000"
+      pictureUrl: "https://nanolog.vteximg.com.br/arquivos/ids/164722-1000-1000/old-prince-cerdo.jpg?v=637346495831970000",
+      category: 1
     },
     {
       id: 6,
@@ -45,7 +50,8 @@ export const data = [
       title: "WHISKAS",
       description: "Adulto - Pack 12",
       price: 1500,
-      pictureUrl: "https://herspet.com/wp-content/uploads/2020/10/WHISKAS-GATITOS-600x600.jpg"
+      pictureUrl: "https://herspet.com/wp-content/uploads/2020/10/WHISKAS-GATITOS-600x600.jpg",
+      category: 2
     },
     {
       id: 7,
@@ -53,7 +59,8 @@ export const data = [
       title: "CAT CHOW",
       description: "Adulto Carne",
       price: 5500,
-      pictureUrl: "https://veterinariaeljockey.com.ar/wp-content/uploads/2020/09/CAT-CHOW%C2%AE-Adultos-Carne-1.5-kg.png"
+      pictureUrl: "https://veterinariaeljockey.com.ar/wp-content/uploads/2020/09/CAT-CHOW%C2%AE-Adultos-Carne-1.5-kg.png",
+      category: 2
     },
     {
       id: 8,
@@ -61,7 +68,8 @@ export const data = [
       title: "PIEDRITAS ALTA GAMA",
       description: "Piedritas - 3,6kg",
       price: 4000,
-      pictureUrl: "https://guauyeah.com.ar/wp-content/uploads/2021/09/Absorsol-Pack-Piedras-Alta-Gama.jpg"
+      pictureUrl: "https://guauyeah.com.ar/wp-content/uploads/2021/09/Absorsol-Pack-Piedras-Alta-Gama.jpg",
+      category: 2
     },
     {
       id: 9,
@@ -69,7 +77,8 @@ export const data = [
       title: "IAMS GATO ADULTO LIGHT",
       description: "Adulto - 3kg",
       price: 12000,
-      pictureUrl: "https://drovenort.com.ar/wp-content/uploads/2020/10/Iams-Cat-Light.png"
+      pictureUrl: "https://drovenort.com.ar/wp-content/uploads/2020/10/Iams-Cat-Light.png",
+      category: 2
     },
     {
       id: 10,
@@ -77,6 +86,7 @@ export const data = [
       title: "VITAL CAN COMPLETE KITTEN",
       description: "Cachorro - 15kg",
       price: 7000,
-      pictureUrl: "https://d3ugyf2ht6aenh.cloudfront.net/stores/884/444/products/kitten-21-73c04e143da4fe596b16236758533955-1024-1024.jpg"
+      pictureUrl: "https://d3ugyf2ht6aenh.cloudfront.net/stores/884/444/products/kitten-21-73c04e143da4fe596b16236758533955-1024-1024.jpg",
+      category: 2
     }
   ]

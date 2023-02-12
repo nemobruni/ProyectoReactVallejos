@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App-logo {
@@ -13,13 +16,22 @@
   }
 }
 
+
+.item-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 100%;
+  color: white;
+  background-color: black;
+}
+
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -33,7 +45,7 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 
@@ -131,14 +143,7 @@
   max-width: 260px;
 }
 
-.item-list-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
-    max-width: 80%;
-}
+
 
 .card:hover,
 .card:focus,

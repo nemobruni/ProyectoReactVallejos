@@ -11,10 +11,7 @@ function Item({producto}) {
       <img className='card-image' src={producto.pictureUrl}></img>
       <span>{producto.title}</span>
       <br/>
-      <div>
-        <span>{producto.description}</span>
-      </div>
-      <ItemCount stock={5} initial={0} onAdd={null}/>
+      <strong>$ {producto.price}</strong>
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Item from "../Item/Item";
 
 function ItemList({ productos }) {
@@ -10,7 +11,9 @@ function ItemList({ productos }) {
   //PASO 7 EN COMPONENTE ITEM
   return (
     productos.map((producto) => (
+      <Link to={`/detail/${producto.id}`}>
         <Item key={producto.id} producto={producto} />
+      </Link>
     ))
   );
 }

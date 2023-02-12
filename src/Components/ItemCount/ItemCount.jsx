@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 function ItemCount({ stock, initial, onAdd }) {
   const [contador, setContador] = useState(initial);
@@ -11,14 +11,15 @@ function ItemCount({ stock, initial, onAdd }) {
     if (contador < stock) setContador(contador + 1);
   };
 
+  const onAddHandler = () => onAdd(contador);
+
   return (
     <div>
-
       <h2>{contador}</h2>
       <button onClick={suma}>Sumar</button>
       <button onClick={resta}>Restar</button>
-      <br/>
-      <button> Agregar al carrito</button>
+      <br />
+      <button onClick={onAddHandler}> Agregar al carrito</button>
     </div>
   );
 }

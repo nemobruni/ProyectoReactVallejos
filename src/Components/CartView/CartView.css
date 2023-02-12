@@ -1,0 +1,10 @@
+.empty-cart-container{
+    color:white;
+}
+
+.full-cart-container{
+    color:white;
+    height: auto;
+    background-color: black;
+    width: 100vw;
+}
