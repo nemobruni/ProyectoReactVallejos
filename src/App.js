@@ -1,11 +1,11 @@
 import "./App.css";
-import Navbar from "./components/Navbar/Navbar";
-import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
+import Navbar from "./components/Navbar/Navbarr";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainerr";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainer";
-import { CartProvider } from "./components/Context/CartContext";
-import CartView from "./components/CartView/CartView";
-import Order from "./components/Order/Order";
+import ItemDetailContainer from "./components/ItemDetailContainer/ItemDetailContainerr";
+import { CartProvider } from "./components/Context/CartContextt";
+import CartView from "./components/CartView/CartVieww";
+import Order from "./components/Order/Orderr";
 
 function App() {
   //-------ACA SE ESCRIBE JAVASCRIPT!!!!!!!!!
