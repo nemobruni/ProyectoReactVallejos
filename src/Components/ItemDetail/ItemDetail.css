@@ -1,0 +1,11 @@
+.item-detail{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 50vw;
+}
+
+.item-detail img{
+    width: 20vw;
+}

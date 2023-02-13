@@ -1,0 +1,39 @@
+.cart-card {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    transition: color 0.15s ease, border-color 0.15s ease;
+    width: 80vw !important;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .cart-card-image{
+    max-width: 70px;
+  }
+  
+  
+  
+  .cart-card:hover,
+  .cart-card:focus,
+  .cart-card:active {
+    color: #0070f3;
+    border-color: #0070f3;
+  }
+  
+  .cart-card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .cart-card p {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
